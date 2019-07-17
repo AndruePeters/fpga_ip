@@ -8,7 +8,8 @@
 
   Description: Test bench for a full_adder
 */
-
+`timescale 1ns/1ps
+`default_nettype none
 `include "../../../modules/math/adders/full_adder.v"
 
 
@@ -20,7 +21,7 @@ wire sum, cout;
 // apply input vectors
 initial
 begin: apply_stimulus
-	reg[3:0] invect;	// invect[3] termantes the for loop
+	reg[3:0] invect;	// invect[3] terminates the for loop
 	for (invect = 0; invect < 8; invect = invect + 1)
 		begin
 			{a, b, cin} = invect [3:0];
