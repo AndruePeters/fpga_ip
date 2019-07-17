@@ -9,12 +9,13 @@
   Description: Test bench for a full_adder
 */
 `timescale 1ns/1ps
-`default_nettype none
 `include "../../../modules/math/adders/full_adder.v"
 
 
 
 module full_adder_tb;
+
+localparam period = 20;
 reg a, b, cin;
 wire sum, cout;
 
@@ -25,7 +26,7 @@ begin: apply_stimulus
 	for (invect = 0; invect < 8; invect = invect + 1)
 		begin
 			{a, b, cin} = invect [3:0];
-			#10 $display ("abcin = %b, cout = %b, sum = %b", {a, b, cin}, cout, sum);
+			#period $display ("abcin = %b, cout = %b, sum = %b", {a, b, cin}, cout, sum);
 		end
 end
 
