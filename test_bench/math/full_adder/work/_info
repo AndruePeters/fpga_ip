@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Download
+vfull_adder
+Z0 !s110 1563395261
+!i10b 1
+!s100 Yd9?93b:@Dlba6;_G;DVH2
+Iz:zf1o]JU[WJ@?ggVz5YA1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/druep/Documents/dev/fpga_ip/test_bench/math/full_adder
+w1563376059
+8../../../modules/math/adders/full_adder.v
+F../../../modules/math/adders/full_adder.v
+L0 14
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1563395261.000000
+Z5 !s107 ../../../modules/math/adders/full_adder.v|C:/Users/druep/Documents/dev/fpga_ip/test_bench/math/full_adder/full_adder_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-vlog01compat|-stats=none|C:/Users/druep/Documents/dev/fpga_ip/test_bench/math/full_adder/full_adder_tb.v|
+!i113 1
+Z7 o-work work -vlog01compat
+Z8 tCvgOpt 0
+vfull_adder_tb
+R0
+!i10b 1
+!s100 3aF]6ETg>SEJCSX1P076W2
+IR=hGYSVIHP`A9LbTh;?l02
+R1
+R2
+w1563393500
+8C:/Users/druep/Documents/dev/fpga_ip/test_bench/math/full_adder/full_adder_tb.v
+FC:/Users/druep/Documents/dev/fpga_ip/test_bench/math/full_adder/full_adder_tb.v
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
